@@ -1,0 +1,13 @@
+{
+  "namespace": "peku.kafka.gmtt",
+  "doc": "Identification of a component by an identifier local to the application that emits an event",
+  "name": "LocalComponentId",
+  "type": "record",
+  "fields": [
+    {
+    "doc": "The id of the event",
+    "name": "id",
+    "type": "string"
+    }
+  ]
+}
